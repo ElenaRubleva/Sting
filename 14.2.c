@@ -28,6 +28,9 @@ int main(void) {
     }
 
     Process (IN, str, OUT);
+    
+    fclose(IN);
+    fclose(OUT);
 
     return 0;
 
